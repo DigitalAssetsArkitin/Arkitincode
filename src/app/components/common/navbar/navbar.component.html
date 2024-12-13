@@ -1,0 +1,101 @@
+<header class="header-area ">
+    <div class="container">
+        <div class="row align-items-center bg">
+            <div class="col-lg-12">
+                <div class="row">
+                    
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-0">
+                <div class="logo">
+                    <!-- <a routerLink="/"><img src="assets/images/logo.png" alt="logo" /></a> -->
+                    <a href="/Home"><img src="assets/image/Arkitin1.png" alt="logo" class="logo_image"/></a>
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-sm-6 text-end pr-0">
+                <div class="header-content-right">
+                    <ul class="header-contact">
+                        <li><a href="tel:+91 97500 05058"><i class="bx bxs-phone-call"></i>+91 97500 05058</a></li>
+                        <li><a href="mailto:contact@arkitin.com"><i class="bx bxs-envelope"></i>contact@arkitin.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-sm-6 text-end pl-0">
+                <div class="header-content-right">
+                    <ul class="header-social">
+                        <li><a href="https://www.facebook.com/profile.php?id=61554632971539"><i class="bx bxl-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/Arkitin_"><i class="bx bxl-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/_arkitin/ "><i class="bx bxl-instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/arkitin/about/ "><i class="bx bxl-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="{{navbarClass}}">
+    <div class="main-nav" [ngClass]="{'sticky': isSticky}">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light" [class.active]="classApplied">
+                <a class="navbar-brand d-none" routerLink="">
+                    <a routerLink="/"><img src="assets/image/Arkitin1.png" alt="logo" class="logo_image"/></a>
+                </a>
+                <button class="navbar-toggler" type="button" (click)="toggleClass()">
+                    <span class="burger-menu">
+                        <span class="top-bar"></span>
+                        <span class="middle-bar"></span>
+                        <span class="bottom-bar"></span>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-left">
+                        <li class="nav-item" >
+                            <a href="/Home" id="arkitin-text">Arkitin</a>
+                        </ul>
+                        <ul class="navbar-nav text-right">
+                        <li class="nav-item">
+                            <a href="/Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/about">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/services">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/partners">Partners</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/products">Products</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/newsMedia">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/career">Careers</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/referral">Referrals</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-btn">
+                    <a href="/Home" class="box-btn">Login</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
